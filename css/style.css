@@ -1,0 +1,96 @@
+*{
+	margin: 0 ;
+	padding: 0;
+}
+body{
+	font-family: arial;
+}
+.horizontal-line{
+	width: 100%;
+	height: 100%;
+	border-bottom: .1rem solid blue;
+}
+.vertical-line{
+	width: 100%;
+	height: 100%;
+	border-right: .15rem solid blue;
+}
+.vertical-line2{
+	width: 100%;
+	height: 100%;
+	border-left: .15rem solid blue;
+}
+.menu{
+	text-align: center;
+}
+.menubar{
+	margin: 0;
+	padding: 0;
+}
+.menubar ul{
+	list-style: none;
+}
+.menubar ul li{
+}
+.menubar ul li a{
+	text-decoration: none;
+	padding: 10px 10px;
+	display: block;
+	border-bottom: 1px solid #dddd;
+	background:rgb(63,422,22);
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+	font-family: sans-serif;
+}
+.menubar ul li a:hover{
+	background: #dddd;
+}
+.resmenu{
+	display: none;
+}
+.available{
+	background: rgb(63,422,22);
+}
+.profile-menu{
+
+}
+.profile-menu li{
+	list-style: none;
+}
+.profile-menu li a{
+	text-decoration: none;
+	padding: 5px 5px;
+	line-height: 30px;
+	display: block;
+
+}
+.profile-menu li a:hover{
+	background: #dddd;
+}
+.user-name{
+	font-family:fantasy;
+	font-style: italic;
+	color:rgb(89, 132, 79);
+}
+.user-login{
+	font-family:fantasy;
+	font-weight: bold;
+	color: white;
+}
+
+@media screen and (max-width: 767px){
+	.resmenu{
+		display: block;
+	}
+	.togglemenu{
+		display: none;
+	}
+	.menu{
+		display: none;
+	}
+	.vertical-line{
+		border-right:none;
+	}
+
+}
