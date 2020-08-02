@@ -20,7 +20,7 @@
 					<div class="row mt-3">
 						<div class="col-12 col-sm-12 col-md-3 col-lg-3">
 							<label>Student Id</label>
-							<input type="text" value="<?php echo $getSitVacant->getVacantData($vacantId)['student_id']?>" class="form-control" name="student_id" required>
+							<input type="text" value="<?php echo $getSitVacant->getVacantData($vacantId)['student_id']?>" class="form-control" name="student_id" readonly>
 							<input type="hidden" value="<?php echo $getSitVacant->getVacantData($vacantId)['admit_student_id']?>" name="hidden_id" >
 						</div>
 						<div class="col-12 col-sm-12 col-md-3 col-lg-3">
