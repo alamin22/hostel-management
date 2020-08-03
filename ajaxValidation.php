@@ -1,6 +1,6 @@
 <?php
 	include"ajaxDataController.php";
-
+//retrive for vacant history
 	$getVacantData=new retrieveDataHistory();
 	if($getVacantData->getVacantHistory()['vacantData']){
 		if(count($getVacantData->getVacantHistory()['vacantData'])>0){
